@@ -1,0 +1,42 @@
+body{
+    background-color: #FCFFE9;
+}
+.light-bg{
+    background-color: #FCFFE9;
+}
+.light-box-bg{
+    background-color: #CAF4F4;
+}
+.light-inside-box-bg{
+    background-color: #FFF2CC;
+}
+.technique-icon{
+    width: 50px;
+    height: 50px;
+}
+.card-img-top{
+    height: 180px;
+    width: auto;
+}
+.jobs-icon{
+    width: 75px;
+    height: 75px;
+}
+
+#backToTopBtn{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.img-thumbnail{
+    max-width: 350px;
+    max-height: 350px;
+}
+.tech-icon{
+    width: 30px;
+    height: 30px;
+}
+.contact-icon{
+    width: 30px;
+    height: 30px;
+}

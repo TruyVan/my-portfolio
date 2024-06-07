@@ -29,8 +29,9 @@ body{
     right: 20px;
 }
 .img-thumbnail{
-    max-width: 350px;
-    max-height: 350px;
+    max-height: 250px;
+    min-height: 100px;
+    width: auto;
 }
 .tech-icon{
     width: 30px;

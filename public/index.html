@@ -19,27 +19,34 @@
 </head>
 <body id="TOP">
     <header>
-        <div class="px-5 mt-4 container-fluid d-flex justify-content-between">
-            <div>
-                <h2><strong><i>Truyvan</i></strong></h2>
+        <nav class="navbar navbar-expand-lg navbar-light light-bg d-flex justify-content-between">
+            <div class="container-fluid">
+                <div>
+                    <h2><strong><i>Truyvan</i></strong></h2>
+                </div>
+                <div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="list-group my-2 mb-lg-0 d-flex flex-row justify-content-around  ">
+                            <li class="list-group-item light-bg border-0">
+                                <a class="fw-bolder text-decoration-none text-dark" href="#">Home</a>
+                            </li>
+                            <li class="list-group-item light-bg border-0">
+                                <a class="fw-bolder text-decoration-none text-dark" href="#about">About</a>
+                            </li>
+                            <li class="list-group-item light-bg border-0">
+                                <a class="fw-bolder text-decoration-none text-dark" href="#projects">Projects</a>
+                            </li>
+                            <li class="list-group-item light-bg border-0">
+                                <a class="fw-bolder text-decoration-none text-dark" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <div>
-                <ul class="list-group d-flex flex-row justify-content-between gap-3">
-                    <li class="light-bg list-group-item border-0">
-                        <a href="#" class="fw-bolder text-decoration-none text-dark">Home</a>
-                    </li>
-                    <li class="light-bg list-group-item border-0">
-                        <a href="#about" class="fw-bolder text-decoration-none text-dark">About</a>
-                    </li>
-                    <li class="light-bg list-group-item border-0">
-                        <a href="#projects" class="fw-bolder text-decoration-none text-dark">Projects</a>
-                    </li>
-                    <li class="light-bg list-group-item border-0">
-                        <a href="#contact" class="fw-bolder text-decoration-none text-dark">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
+          </nav>
     </header>
     <div class="body">
         <div id="home">
@@ -53,39 +60,37 @@
                 <div></div>
             </div>
         </div>
-        <div id="about" class="container light-box-bg p-3 mt-3 rounded">
+        <div id="about" class="container light-box-bg p-3 mt-3 rounded align-items-center">
             <h2 class="mb-4">ABOUT ME</h2>
-            <div class="container row d-flex flex-row algin-items-center row">
-                <div class="technique col-4 col-lg-4 col-md-4 col-sm-12">
+            <div class="container row">
+                <div class="technique col-12 col-lg-4 col-md-4 col-sm-4">
                     <h4>Developing tools</h4>
-                    <div class="container">
-                        <div class="row">
-                            <div class="d-flex flex-column align-items-center col-sm-6 col-md-4 col-lg-4">
-                                <img class="technique-icon img-fluid" src="img/tech-icons/html-5.svg" alt="">
-                                <p><small><i>HTML5</i></small></p>
+                    <div class="row d-flex flex-row justify-content-center">
+                        <div class="d-flex flex-column align-items-center col-sm-6 col-md-4 col-lg-4">
+                            <img class="technique-icon img-fluid" src="img/tech-icons/html-5.svg" alt="">
+                            <p><small><i>HTML5</i></small></p>
+                        </div>
+                        <div class="d-flex flex-column align-items-center col-sm-6 col-md-4 col-lg-4">
+                            <img class="technique-icon img-fluid" src="img/tech-icons/css-3.svg" alt="">
+                            <p><small><i>CSS 3</i></small></p>
+                        </div>
+                        <div class="d-flex flex-column align-items-center col-sm-6 col-md-4 col-lg-4">
+                            <img class="technique-icon img-fluid" src="img/tech-icons/javascript.svg" alt="">
+                            <p><small><i>CSS 3</i></small></p>
+                        </div>
+                        <div class="d-flex flex-column align-items-center col-sm-6 col-md-4 col-lg-4">
+                            <div>
+                                <img class="technique-icon img-fluid" src="img/tech-icons/wordpress.svg" alt="">
                             </div>
-                            <div class="d-flex flex-column align-items-center col-sm-6 col-md-4 col-lg-4">
-                                <img class="technique-icon img-fluid" src="img/tech-icons/css-3.svg" alt="">
-                                <p><small><i>CSS 3</i></small></p>
-                            </div>
-                            <div class="d-flex flex-column align-items-center col-sm-6 col-md-4 col-lg-4">
-                                <img class="technique-icon img-fluid" src="img/tech-icons/javascript.svg" alt="">
-                                <p><small><i>CSS 3</i></small></p>
-                            </div>
-                            <div class="d-flex flex-column align-items-center col-sm-6 col-md-4 col-lg-4">
-                                <div>
-                                    <img class="technique-icon img-fluid" src="img/tech-icons/wordpress.svg" alt="">
-                                </div>
-                                <p><small><i>Wordpress</i></small></p>
-                            </div>
-                            <div class="d-flex flex-column align-items-center col-sm-6 col-md-4 col-lg-4">
-                                <img class="technique-icon img-fluid" src="img/tech-icons/react.svg" alt="">
-                                <p><small><i>ReactJS</i></small></p>
-                            </div>
-                            <div class="d-flex flex-column align-items-center col-sm-6 col-md-4 col-lg-4">
-                                <img class="technique-icon img-fluid" src="img/tech-icons/bootstrap.png" alt="">
-                                <p><small><i>Bootstrap</i></small></p>
-                            </div>
+                            <p><small><i>Wordpress</i></small></p>
+                        </div>
+                        <div class="d-flex flex-column align-items-center col-sm-6 col-md-4 col-lg-4">
+                            <img class="technique-icon img-fluid" src="img/tech-icons/react.svg" alt="">
+                            <p><small><i>ReactJS</i></small></p>
+                        </div>
+                        <div class="d-flex flex-column align-items-center col-sm-6 col-md-4 col-lg-4">
+                            <img class="technique-icon img-fluid" src="img/tech-icons/bootstrap.png" alt="">
+                            <p><small><i>Bootstrap</i></small></p>
                         </div>
                     </div>
                 </div>
@@ -117,8 +122,8 @@
         </div>
         <div id="projects" class="container light-box-bg p-3 mt-3 rounded">
             <h2 class="mb-4">PROJECTS</h2>
-            <div class="container row gap-3">
-                <div class="card border-info col-6 col-lg-4 col-md-6 col-sm-6" style="width: 18rem;">
+            <div class="container row gap-3 justify-content-center">
+                <div class="card border-info col-12 col-lg-4 col-md-6 col-sm-6" style="width: 18rem;">
                     <img src="img/website-screenshots/phuongminhpharma-com.png" class="card-img-top" alt="pharmacy-website">
                     <div class="card-body">
                         <h5 class="card-title fw-bolder">Phuong Minh Pharmacy Website</h5>
@@ -134,7 +139,7 @@
                         <a target="_blank" href="https://phuongminhpharma.com/" class="btn btn-info text-white">Visit this website</a>
                     </div>
                 </div>
-                <div class="card border-info col-6 col-lg-4 col-md-6 col-sm-6" style="width: 18rem;">
+                <div class="card border-info col-12 col-lg-4 col-md-6 col-sm-6" style="width: 18rem;">
                     <img src="img/website-screenshots/broken-image.png" class="card-img-top" alt="pharmacy-website">
                     <div class="card-body">
                         <h5 class="card-title fw-bolder">Books selling website</h5>
@@ -146,7 +151,7 @@
                         <a target="_blank" href="https://truyvan.cf" class="btn btn-info text-black disabled text-decoration-line-through">Visit this website</a>
                     </div>
                 </div>
-                <div class="card border-info col-6 col-lg-4 col-md-6 col-sm-6" style="width: 18rem;">
+                <div class="card border-info col-12 col-lg-4 col-md-6 col-sm-6" style="width: 18rem;">
                     <img src="img/website-screenshots/to-do-web.png" class="card-img-top" alt="pharmacy-website">
                     <div class="card-body">
                         <h5 class="card-title fw-bolder">[SUPER SIMPLE] To-do List website</h5>
@@ -163,7 +168,7 @@
                         <a target="_blank" href="https://to-do-list-sample.vercel.app/" class="btn btn-info text-white">Visit this website</a>
                     </div>
                 </div>
-                <div class="card border-info col-6 col-lg-4 col-md-6 col-sm-6" style="width: 18rem;">
+                <div class="card border-info col-12 col-lg-4 col-md-6 col-sm-6" style="width: 18rem;">
                     <img src="img/work-in-progress.png" class="card-img-top" alt="pharmacy-website">
                     <div class="card-body">
                         <h5 class="card-title fw-bolder">[SUPER SIMPLE] Calculator website</h5>
@@ -193,7 +198,7 @@
                             <li class="light-box-bg border-info rounded m-1 list-group-item">
                                 <div class="row">
                                     <div class="col-2 d-flex flex-row gap-3">
-                                            <img class="contact-icon" src="/img/contacts-icons/facebook.png" alt="">
+                                            <img class="contact-icon" src="img/contacts-icons/facebook.png" alt="">
                                             <h3>
                                                 Facebook
                                             </h3>
@@ -206,7 +211,7 @@
                             <li class="light-box-bg border-info rounded m-1 list-group-item">
                                 <div class="row">
                                     <div class="col-2 d-flex flex-row gap-3">
-                                            <img class="contact-icon" src="/img/contacts-icons/gmail.png" alt="">
+                                            <img class="contact-icon" src="img/contacts-icons/gmail.png" alt="">
                                             <h3>
                                                 Email
                                             </h3>
@@ -219,7 +224,7 @@
                             <li class="light-box-bg border-info rounded m-1 list-group-item">
                                 <div class="row">
                                     <div class="col-2 d-flex flex-row gap-3">
-                                            <img class="contact-icon" src="/img/contacts-icons/github.png" alt="">
+                                            <img class="contact-icon" src="img/contacts-icons/github.png" alt="">
                                             <h3>
                                                 Github
                                             </h3>
@@ -233,7 +238,8 @@
             </div>
         </div>
     </div>
-    <footer></footer>
+    <footer>
+    </footer>
     <div id="backToTopBtn">
         <a href="#TOP">
             <button class="btn btn-danger"><i class="fas fa-arrow-up display-6"></i></button>
